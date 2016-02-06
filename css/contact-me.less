@@ -1,0 +1,68 @@
+.contact-me {
+    position: relative;
+    &::after {
+        content: "";
+        background: url(../img/background/home-office.jpg);
+        opacity: 0.3;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+}
+.form-control {
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 15px 12px;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 1.5;
+    background-color: rgba(0,0,0,.36);
+    background-image: none;
+    border: none;
+    border-radius: 0;
+    color: #1E2431;
+}
+// .input-group-addon + .form-control:focus,
+// .input-group-addon + .form-control:hover{
+//     border-bottom: 3px solid #1E2431;
+// }
+
+.form-control:focus {
+    border-bottom: 3px solid #1E2431;
+}
+.input-group-addon {
+    background-color: #F0F1F4;
+    border-radius: 0;
+    border: none;
+    border-bottom: 3px solid #DC0E0E;
+}
+.contact-name,
+.contact-message,
+.contact-mail {
+    background-color: #F0F1F4;
+    border-bottom: 3px solid #DC0E0E;
+}
+.btn-send {
+    margin-top: 30px;
+    margin-right: auto;
+    margin-bottom: 40px;
+    margin-left: auto;
+    font-size: 25px;
+    color: #FFFFFF;
+    background-color: #DC0E0E;
+    border-radius: 50px;
+    padding: 15px 20px;
+    display: block;
+    font-weight: 300;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    width: 100%;
+}
+.btn-send:hover {
+    color: #FFFFFF;
+    background-color: #1E2431;
+}

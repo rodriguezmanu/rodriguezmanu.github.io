@@ -1,0 +1,198 @@
+// @import '../bower_components/bootstrap/less/bootstrap.less';
+@import 'scroll.less';
+@import 'tags.less';
+@import 'timeline.less';
+@import 'social.less';
+@import 'profile.less';
+@import 'work-experience.less';
+@import 'contact-me.less';
+@import 'media-queries.less';
+
+/////////////////
+// main styles //
+/////////////////
+body {
+    font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+nav.navbar {
+    a {
+        color: #f14444;
+    }
+    .navbar-brand {
+        display: none;
+    }
+    ul.navbar-nav a {
+        color: rgba(255, 255, 255, 0.7);
+        border-width: 0 0 2px 0;
+        font-size: 13px;
+        font-weight: 700;
+        line-height: 1;
+        text-transform: uppercase;
+        &:visited,
+        &:focus,
+        &:active
+        &:hover {
+            border-color: #f14444;
+            border-style: solid;
+        }
+    }
+    li.divider {
+        background: #ccc;
+    }
+    button.navbar-toggle {
+        background: #f14444;
+        border-radius: 2px;
+        &:hover {
+            background: #999;
+        }
+        & > span.icon-bar {
+            background: #fff;
+        }
+    }
+}
+.navbar-collapse.collapse.in[aria-expanded=true] {
+    background-color: #E06464;
+}
+.navbar-fixed-top {
+    position: absolute;
+}
+.navbar-fixed-top.animated-header-scroll {
+    position: fixed;
+    background-color: #FFFFFF;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.19), 0 6px 10px rgba(0, 0, 0, 0.23);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    ul.navbar-nav a {
+        color: #3d4451;
+    }
+    .navbar-brand {
+        display: inline;
+        &.logo {
+            color: #F53838;
+            font-size: 15px;
+            text-transform: uppercase;
+            padding: 13px;
+        }
+    }
+}
+header {
+    display: block;
+    position: relative;
+    margin: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    text-align: center;
+    padding-top: 51px;
+    padding-bottom: 40px;
+    &::after {
+        content: "";
+        background: url("../img/background/office.jpg") no-repeat;
+        opacity: 0.7;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        z-index: -1;
+    }
+    .container.profile-box {
+        margin-top: 100px;
+    }
+}
+.title-main {
+    font-size: 80px;
+    font-weight: 100;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+.text-main {
+    font-size: 20px;
+    font-weight: 400;
+}
+.title-second {
+    padding-top: 20px;
+    font-size: 50px;
+    padding-bottom: 20px;
+    text-align: center;
+    font-weight: 300;
+}
+.text-second {
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 40px
+}
+.title-third {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 300;
+    margin-top: 0;
+}
+.text-third {
+    font-size: 19px;
+    font-weight: 400;
+    text-align: center
+}
+.title-four {
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 35px
+}
+.box {
+    background-color: rgba(224, 227, 232, 0.5);
+    width: 100%;
+    padding: 25px;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+.color-a {
+    color: #1E2431;
+}
+.color-b {
+    color: #DC0E0E;
+}
+.color-c {
+    color: #FFFFFF;
+}
+.color-d {
+    color: #3B4656;
+}
+
+////////////
+// skills //
+////////////
+.tecno {
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+////////////
+// footer //
+////////////
+footer {
+    background-color: #DC0E0E;
+}
+.btn-resume {
+    background-color: #fff;
+    padding: 20px 40px;
+    border-radius: 50px;
+    font-size: 20px;
+    margin-top: 25px;
+    color: #1B1C3E;
+    font-weight: 300;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.16),0 2px 10px 0 rgba(0,0,0,.12);
+    -webkit-transition: all .3s;
+    transition: all .3s;
+    display: inline-block;
+}
+.btn-resume:focus,
+.btn-resume:hover {
+    background-color: #2D373D;
+    color: #FFF;
+    text-decoration: none;
+}
