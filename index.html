@@ -25,19 +25,19 @@
                     <div class="collapse navbar-collapse" id="navbar">
                         <ul class="nav navbar-nav navbar-right">
                             <li class="active">
-                                <a href="#">About me</a>
+                                <a data-scroll  href="#about-me" data-options="{ "easing": "easeInCubic" }">About me</a>
                             </li>
                             <li class="active">
-                                <a href="#">Skills</a>
+                                <a data-scroll  href="#skills" data-options="{ "easing": "easeInCubic" }">Skills</a>
                             </li>
                             <li class="active">
-                                <a href="#">Education</a>
+                                <a data-scroll  href="#work-experience" data-options="{ "easing": "easeInCubic" }">Work Experience</a>
                             </li>
                             <li class="active">
-                                <a href="#">Experience</a>
+                                <a data-scroll  href="#education" data-options="{ "easing": "easeInCubic" }">Education</a>
                             </li>
                             <li class="active">
-                                <a href="#">Contact me</a>
+                                <a data-scroll  href="#contact-me" data-options="{ "easing": "easeInCubic" }">Contact me</a>
                             </li>
                         </ul>
                     </div>
@@ -58,7 +58,7 @@
            </span>
         </div>
     </header>
-    <section class="about-me">
+    <section class="about-me" id="about-me">
         <article class="container">
             <div class="row">
                 <h2 class="title-main pull-right">About Me.</h2>
@@ -76,17 +76,17 @@
                         <p class="text-second">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Nullam dignissim convallis est. Quisque aliquam. Donec faucibus. Nunc iaculis suscipit dui. Nam sit amet sem. Aliquam libero nisi, imperdiet at, tincidunt nec, gravida vehicula, nisl. Praesent mattis, massa quis luctus fermentum, turpis mi volutpat justo, eu volutpat enim diam eget metus.</p>
                     </div>
                     <div class="col-md-4">
-                        <!-- <img class="img-rd" alt="programmer" src="img/w_programmer.png"/> -->
+                        <i class="fa fa-facebook fa-3x"></i>
                         <h3 class="title-third">Programmer</h3>
                         <p class="text-third">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
                     </div>
                     <div class="col-md-4">
-                        <!-- <img class="img-rd" alt="creative" src="img/w_brain.png"/> -->
+                        <i class="fa fa-facebook fa-3x"></i>
                         <h3 class="title-third">Creative</h3>
                         <p class="text-third">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
                     </div>
                     <div class="col-md-4">
-                        <!-- <img class="img-rd" alt="innovator" src="img/w_rocket.png"/> -->
+                        <i class="fa fa-facebook fa-3x"></i>
                         <h3 class="title-third">Innovator</h3>
                         <p class="text-third">Lorem ipsum dolor sit amet. Duis aute irure dolor in reprehenderit in voluptate.</p>
                     </div>
@@ -94,7 +94,7 @@
             </div>
         </article>
     </section>
-    <section class="skills">
+    <section class="skills" id="skills">
         <div class="container">
             <div class="row">
                 <h2 class="title-main color-d pull-right">Professional Skills.</h2>
@@ -185,7 +185,7 @@
             </div>
         </div>
     </section>
-    <section class="work-experience">
+    <section class="work-experience" id="work-experience">
         <div class="container">
             <div class="row">
                 <h2 class="title-main color-c pull-right">Work Experience.</h2>
@@ -234,7 +234,7 @@
             </div>
         </div>
     </section>
-    <section class="education">
+    <section class="education" id="education">
         <div class="container">
             <div class="row">
                 <h2 class="title-main pull-right">Education.</h2>
@@ -242,89 +242,67 @@
                     <p class="text-main">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
                 </div>
                 <div class="container">
-                    <ul class="timeline">
-                        <li>
-                          <div class="timeline-badge"><i class="glyphicon glyphicon-check"></i></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-heading">
-                              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                            </div>
-                            <div class="timeline-body">
-                              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="timeline-inverted">
-                          <div class="timeline-badge warning"><i class="glyphicon glyphicon-credit-card"></i></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-heading">
-                              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                            </div>
-                            <div class="timeline-body">
-                              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                              <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="timeline-badge danger"><i class="glyphicon glyphicon-credit-card"></i></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-heading">
-                              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                            </div>
-                            <div class="timeline-body">
-                              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="timeline-inverted">
-                          <div class="timeline-panel">
-                            <div class="timeline-heading">
-                              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                            </div>
-                            <div class="timeline-body">
-                              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="timeline-badge info"><i class="glyphicon glyphicon-floppy-disk"></i></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-heading">
-                              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                            </div>
-                            <div class="timeline-body">
-                              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li>
-                          <div class="timeline-panel">
-                            <div class="timeline-heading">
-                              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                            </div>
-                            <div class="timeline-body">
-                              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                            </div>
-                          </div>
-                        </li>
-                        <li class="timeline-inverted">
-                          <div class="timeline-badge success"><i class="glyphicon glyphicon-thumbs-up"></i></div>
-                          <div class="timeline-panel">
-                            <div class="timeline-heading">
-                              <h4 class="timeline-title">Mussum ipsum cacilds</h4>
-                            </div>
-                            <div class="timeline-body">
-                              <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
-                            </div>
-                          </div>
-                        </li>
-                    </ul>
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <ul class="timeline">
+                                <li>
+                                    <div class="timeline-badge">
+                                        <i class="glyphicon glyphicon-check"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-badge warning">
+                                        <i class="glyphicon glyphicon-credit-card"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                            <p>Suco de cevadiss, é um leite divinis, qui tem lupuliz, matis, aguis e fermentis. Interagi no mé, cursus quis, vehicula ac nisi. Aenean vel dui dui. Nullam leo erat, aliquet quis tempus a, posuere ut mi. Ut scelerisque neque et turpis posuere pulvinar pellentesque nibh ullamcorper. Pharetra in mattis molestie, volutpat elementum justo. Aenean ut ante turpis. Pellentesque laoreet mé vel lectus scelerisque interdum cursus velit auctor. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam ac mauris lectus, non scelerisque augue. Aenean justo massa.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div class="timeline-badge danger">
+                                        <i class="glyphicon glyphicon-credit-card"></i>
+                                    </div>
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="timeline-inverted">
+                                    <div class="timeline-panel">
+                                        <div class="timeline-heading">
+                                            <h4 class="timeline-title">Mussum ipsum cacilds</h4>
+                                        </div>
+                                        <div class="timeline-body">
+                                            <p>Mussum ipsum cacilds, vidis litro abertis. Consetis adipiscings elitis. Pra lá , depois divoltis porris, paradis. Paisis, filhis, espiritis santis. Mé faiz elementum girarzis, nisi eros vermeio, in elementis mé pra quem é amistosis quis leo. Manduma pindureta quium dia nois paga. Sapien in monti palavris qui num significa nadis i pareci latim. Interessantiss quisso pudia ce receita de bolis, mais bolis eu num gostis.</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <section class="contact-me">
+    <section class="contact-me" id="contact-me">
         <div class="container">
             <h1 class="title-main pull-right">Contact me.</h1>
         </div>
@@ -368,22 +346,22 @@
                 <div class="col-sm-7">
                     <ul class="social">
                         <li class="facebook">
-                            <a href="">
+                            <a href="https://www.facebook.com/manuel.rodriguez.315865" target="_blank">
                                 <i class="fa fa-facebook fa-3x"></i>
                             </a>
                          </li>
                         <li class="twitter">
-                             <a href="">
+                             <a href="https://twitter.com/rodriguez_manu_" target="_blank">
                                 <i class="fa fa-twitter fa-3x"></i>
                              </a>
                         </li>
                         <li class="github">
-                            <a href="">
+                            <a href="https://github.com/rodriguezmanu" target="_blank">
                                 <i class="fa fa-github fa-3x"></i>
                             </a>
                         </li>
                         <li class="linkedin">
-                            <a href="">
+                            <a href="https://ar.linkedin.com/in/manuel-rodriguez-19b04a34" target="_blank">
                                 <i class="fa fa-linkedin fa-3x"></i>
                             </a>
                         </li>
@@ -391,7 +369,7 @@
                 </div>
                 <div class="col-sm-5">
                     <div class="btn-class">
-                        <a class="btn-resume" href="#">Download Resume</a>
+                        <a class="btn-resume" href="assets/cv-english.pdf" target="_blank">Download Resume</a>
                     </div>
                 </div>
             </div>
@@ -400,5 +378,7 @@
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
     <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
     <script src="bower_components/animated-header/js/animated-header.js"></script>
+    <script src="bower_components/smooth-scroll/dist/js/smooth-scroll.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
