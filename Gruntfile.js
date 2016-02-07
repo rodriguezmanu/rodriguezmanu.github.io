@@ -60,6 +60,18 @@ module.exports = function(grunt) {
         },
         files: ['index.html']
       }
+    },
+    copy: {
+      main: {
+        files: [
+          {
+            expand: true,
+            flatten: true,
+            src: ['bower_components/bootstrap/fonts/*', 'bower_components/font-awesome/fonts/*'],
+            dest: 'assets/fonts/',
+          },
+        ],
+      },
     }
   });
 
@@ -67,6 +79,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-cssmin');
   grunt.loadNpmTasks('grunt-contrib-watch');
+  grunt.loadNpmTasks('grunt-contrib-copy');
 
-  grunt.registerTask('default', ['less', 'uglify', 'cssmin']);
+  grunt.registerTask('default', ['less', 'uglify', 'cssmin', 'copy']);
 };
