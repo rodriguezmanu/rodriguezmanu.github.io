@@ -20,6 +20,7 @@
     "font-awesome": "^4.5.0",
     "jquery": "^2.2.0",
     "animated-header": "^1.0.3",
-    "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git#^8.1.0"
+    "smooth-scroll": "https://github.com/cferdinandi/smooth-scroll.git#^8.1.0",
+    "wow": "wowjs#^1.1.2"
   }
 }
