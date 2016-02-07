@@ -17,7 +17,15 @@ module.exports = function(grunt) {
       },
       main: {
         files: {
-          'dist/script.min.js': ['js/*.js']
+          'dist/script.min.js':
+            [
+              'bower_components/jquery/dist/jquery.min.js',
+              'bower_components/bootstrap/dist/js/bootstrap.min.js',
+              'bower_components/animated-header/js/animated-header.js',
+              'bower_components/smooth-scroll/dist/js/smooth-scroll.min.js',
+              'bower_components/wow/dist/wow.min.js',
+              'js/*.js',
+            ]
         }
       }
     },
